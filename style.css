@@ -389,7 +389,7 @@ input#message {
     top: 150px;
     z-index: 99;
     left: 670px;
-    box-shadow: #000 1px 1px 20px;
+    box-shadow: #666 1px 1px 20px;
 }
 
 .find-us-text {
@@ -399,7 +399,7 @@ input#message {
     font-size: small;
     font-weight: 300;
 }
-..find-us-text p, span {
+.add-margin {
     margin: 20px 20px;
 }
 
