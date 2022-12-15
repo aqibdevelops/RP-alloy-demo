@@ -1,0 +1,432 @@
+:root{
+    font-family: 'Poppins', sans-serif;
+    color: #222
+}
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.body{
+    width: 98%;
+}
+
+.header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar div{
+    height: 200px;
+}
+
+.bar {
+    margin: 0 0;
+    padding: 0 0;
+    top: -10px;
+    height: 8px;
+}
+
+#logo {
+    margin-top: 5px;
+    height: 18px;
+}
+
+.hero-section {
+    display: flex;
+    position: relative;
+}
+
+.hero {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.hero-img {
+    position: relative;
+    width: 96%;
+}
+
+.hero img {
+
+    max-width: 100%;
+    z-index: -10;
+}
+
+.hero-img-overlay {
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    background-image: linear-gradient(#05283E, rgba(9, 67, 103, 0));
+    z-index: 10;
+}
+
+.hero-elements {
+    position: absolute;
+    display: flex;
+    z-index: 100;
+}
+
+.hero-text span {
+    display: block;
+    margin-top: 60px;
+    margin-left: 20%;
+    color: #fff;
+    width: 550px;
+    height: 100px;
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow:  -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.red-box{
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 20%;
+    top: 240px;
+
+    background: #EC2232;
+    opacity: 0.5;
+}
+
+.other-text{
+    position: absolute;
+    width: 400px;
+    top: 310px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-text span{
+    color: #fff;
+    font-size: smaller;
+}
+
+.hero-num {
+    position: absolute;
+    display: flex;
+    top: 280px;
+    left: 143px;
+    z-index: 99;
+}
+
+.hero-num span {
+    font-weight: 600;
+    color: rgb(0,0,0,0);
+    text-shadow:  -0.5px -.5px 0 #fff, .5px -.5px 0 #fff, -.5px .5px 0 #fff, .5px .5px 0 #fff;
+}
+
+.about-section {
+    position: relative;
+    width: 59%;
+    height: 614px;
+    margin: auto;
+    margin-top: 160px;
+}
+
+.red-text {
+    color: rgba(236, 34, 50, 1);
+}
+
+.heading-text {
+    font-size: 50px;
+    width: 60%;
+}
+
+#side-text {
+    position: absolute;
+    top: 180px;
+    width: 30%;
+    right: 28px;
+    font-size: 10px;
+}
+
+.about {
+    padding-top: 100px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-items {
+    display: flex;
+    margin:auto;
+}
+
+.big-text {
+    font-size: 70px;
+}
+
+.bold-text {
+    font-weight:800;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.third-section{
+    margin-top: 20px;
+    position: relative;
+    display: block;
+}
+
+.background-img {
+    position: absolute;
+    height: 894px;
+    width: 98%;
+    background-color: #f7f7f7;
+    z-index: -10;
+}
+
+#bg-img-1 {
+    position: absolute;
+    height: 600px;
+    right: 0;
+}
+
+#bg-img-2 {
+    position: absolute;
+    left: 0;;
+}
+
+.third-text {
+    position: absolute;
+    width: 80%;
+    margin: auto;
+    top: 150px;
+    left: 20%;
+}
+
+.third-elements {
+    position: absolute;
+    width: 1000px;
+    top: 500px;
+    left: 20%;
+    margin-left: -50px;
+}
+
+.element {
+    margin: 20px 50px;
+    width: 330;
+    height: 450;
+}
+
+.element img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.industry-section {
+    position: relative;
+    top: 1100px;
+    left: 20%;
+    width: 80%;
+}
+
+.grid-elements {
+    margin-top: 40px;
+    width: 99%;
+    column-count: 2;
+    margin: 20px 10px ;
+}
+
+.grid-elements p {
+    padding-top: 20px;
+}
+.grid-elements h4{
+    margin-top: 20px;
+}
+
+.industry-elements {
+    display: flex;
+    width: 80%;
+}
+
+.grey-text {
+    color: #9198A0;
+}
+
+.industry-elements img{
+    margin: 30px 20px;
+    height: 45px;
+    width: 45px;
+}
+
+.industry-elements p{
+    margin-top: -13px;
+    font-size: 10px;
+}
+
+.fifth-section {
+    position: relative;
+    margin-top: 1200px;
+    width: 99%;
+}
+
+.fifth-section img {
+    width: 100%;
+    position: relative;
+}
+
+.fifth-overlay {
+    width: 100%;
+    background-color: rgba(9, 67, 103, 1);
+}
+
+.fifth-text {
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    z-index: 100;
+    color: #fff;
+    width: 500px;
+    font-size: x-large;
+}
+
+.fifth-text span {
+    margin-top: -20px;
+    font-size: 10px;
+    width: 100px;
+}
+
+.fifth-items {
+    margin-top: 30px;
+    display: flex;
+}
+
+.items {
+    width: 450px;
+}
+
+.fifth-items img {
+    height: 40px;
+    width: 40px;
+}
+
+#badge{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top:320px;
+    right: 300px;
+    z-index: 99;
+}
+
+.brands-section {
+    display: flex;
+    justify-content: center;
+}
+
+.brands-section img {
+    margin-top: 80px;
+    width: 70%;
+}
+
+.form-section {
+    position: relative;
+    margin-top: 80px;
+    background-color: #f8f8f8;
+    height: 800px;
+    width: 100%;
+}
+
+.form-left {
+    height: 800px;
+    width: 50%;
+    background-color:#0E3466;
+}
+
+.input-form h2 {
+    padding-top: 160px;
+    padding-bottom: 100px;
+    margin-left: 136px;
+    color: #fff;
+    font-size: xx-large;
+
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 60px;
+    border: none;
+}
+
+button {
+    margin-left: 134px;
+    background-color: #EC2232;
+    color: #fff;
+    border: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+input#message {
+    height: 80px;
+    background-image: url(Resources/Vector\ \(2\).png);
+    background-position: left 30px;
+    background-repeat: no-repeat;
+}
+
+.find-us {
+    position: absolute;
+    height: 500px;
+    width: 520;
+    display: flex;
+    top: 150px;
+    z-index: 99;
+    left: 670px;
+    box-shadow: #000 1px 1px 20px;
+}
+
+.find-us-text {
+    color: #555;
+    width: 240px;
+    background-color: #fff;
+    font-size: small;
+    font-weight: 300;
+}
+..find-us-text p, span {
+    margin: 20px 20px;
+}
+
+.find-us img {
+    height: 500px;
+}
+
+.footer {
+    padding: 40px 60px;
+    color: #fff;
+    background-color: #181818;
+}
+
+.columns-2 {
+    column-count: 2;
+}
+
+.about {
+    margin-top: 0px;
+}
+
+.end {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.about h3 {
+    margin: 0 0 20px 0;
+    font-size: larger;
+}
